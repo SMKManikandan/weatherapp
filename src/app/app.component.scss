@@ -1,0 +1,11 @@
+.widget-container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    .news-widget {
+        flex: 1 1 70%;
+    }
+    .weather-widget {
+        flex: 1 1 30%;
+    }
+}

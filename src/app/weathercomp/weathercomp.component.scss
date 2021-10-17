@@ -1,0 +1,29 @@
+.example-card {
+    max-width: 400px;
+    margin-bottom: 8px;
+    background-color: rgb(231, 231, 231);
+}
+
+.mine {
+    background-color: #3f51b5;
+}
+
+.weather-widget {
+    display: flex;
+}
+
+.weather_contianer {
+    width: 300px;
+    height: 500px;
+    background-color: #3f51b5;
+    padding: 1em;
+    margin: 1em;
+    background-image: url(/assets/weather.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 1px #bbbbbb94;
+    color: #fff;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}

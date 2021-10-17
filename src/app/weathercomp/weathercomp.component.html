@@ -1,0 +1,20 @@
+<div class="container weather-widget">
+    <div class="weather_contianer">
+        <h1>weather</h1>
+        <img src="https://openweathermap.org/img/wn/{{weatherReportData.weather[0].icon}}@2x.png">
+        <!-- <img class="card-img" src="./assets/cloudy.jpg" alt="Card image"> -->
+        <!-- <div><img mat-card-md-im src={{news.urlToImage}}></div> -->
+        <div class="card bg-dark text-white">
+            <div class="card-img-overlay">
+
+                <h5 class="card-title"> Location:{{weatherReportData.name}}</h5>
+                <p class="card-text">Weather: {{weatherReportData.weather[0].main || ''}}</p>
+                <p class="card-text">description {{weatherReportData?.weather[0].description || ''}}</p>
+                <p class="card-text">Temperature:{{weatherReportData.main.temp |number: '2.0'}}</p>
+                <p class="card-text">Minimum Temperature:{{weatherReportData.main.temp_min |number: '2.0'}}</p>
+                <p class="card-text">Maximum Temperature:{{weatherReportData.main.temp_max |number: '2.0'}}</p>
+
+            </div>
+        </div>
+    </div>
+</div>
